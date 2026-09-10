@@ -1,0 +1,36 @@
+﻿model,category,n,top1,top3,top5,mrr,hard_negative_acc,avg_latency_sec,p95_latency_sec,throughput_per_sec,memory_info
+qwen3-embedding:0.6b,전체,60,0.75,0.9,0.967,0.844,0.9,0.027,0.028,37.06,"{'device': 'cuda', 'ram_delta_mb': 2430.6, 'vram_mb': 2272.7}"
+qwen3-embedding:0.6b,Easy,10,0.9,1.0,1.0,0.95,1.0,,,,
+qwen3-embedding:0.6b,Hard,10,0.6,0.8,0.8,0.72,0.9,,,,
+qwen3-embedding:0.6b,Medium,10,0.5,0.8,1.0,0.7,0.7,,,,
+qwen3-embedding:0.6b,구어체,10,1.0,1.0,1.0,1.0,1.0,,,,
+qwen3-embedding:0.6b,긴질문,10,0.7,0.8,1.0,0.795,0.9,,,,
+qwen3-embedding:0.6b,오타,10,0.8,1.0,1.0,0.9,0.9,,,,
+bge-m3,전체,60,0.867,0.95,0.983,0.916,0.983,0.01,0.011,100.46,"{'device': 'cuda', 'ram_delta_mb': 1343.6, 'vram_mb': 2165.9}"
+bge-m3,Easy,10,0.8,1.0,1.0,0.883,1.0,,,,
+bge-m3,Hard,10,0.8,0.8,0.9,0.835,1.0,,,,
+bge-m3,Medium,10,0.8,1.0,1.0,0.9,0.9,,,,
+bge-m3,구어체,10,1.0,1.0,1.0,1.0,1.0,,,,
+bge-m3,긴질문,10,0.8,0.9,1.0,0.875,1.0,,,,
+bge-m3,오타,10,1.0,1.0,1.0,1.0,1.0,,,,
+multilingual-e5-large,전체,60,0.817,0.933,0.95,0.877,0.9,0.01,0.011,99.95,"{'device': 'cuda', 'ram_delta_mb': 368.2, 'vram_mb': 2135.8}"
+multilingual-e5-large,Easy,10,0.8,1.0,1.0,0.883,1.0,,,,
+multilingual-e5-large,Hard,10,0.5,0.8,0.8,0.651,0.8,,,,
+multilingual-e5-large,Medium,10,0.9,1.0,1.0,0.95,0.9,,,,
+multilingual-e5-large,구어체,10,1.0,1.0,1.0,1.0,1.0,,,,
+multilingual-e5-large,긴질문,10,0.7,0.8,0.9,0.78,0.7,,,,
+multilingual-e5-large,오타,10,1.0,1.0,1.0,1.0,1.0,,,,
+gte-multilingual-base,전체,60,0.767,0.867,0.917,0.832,0.9,0.006,0.007,155.54,"{'device': 'cuda', 'ram_delta_mb': 837.8, 'vram_mb': 1197.0}"
+gte-multilingual-base,Easy,10,0.9,0.9,0.9,0.906,0.9,,,,
+gte-multilingual-base,Hard,10,0.7,0.8,0.9,0.77,0.9,,,,
+gte-multilingual-base,Medium,10,0.7,0.9,1.0,0.803,1.0,,,,
+gte-multilingual-base,구어체,10,1.0,1.0,1.0,1.0,1.0,,,,
+gte-multilingual-base,긴질문,10,0.5,0.7,0.8,0.656,0.8,,,,
+gte-multilingual-base,오타,10,0.8,0.9,0.9,0.857,0.8,,,,
+embeddinggemma,전체,60,0.833,0.933,0.967,0.894,0.933,0.028,0.029,35.98,"{'device': 'cuda', 'ram_delta_mb': 203.0, 'vram_mb': 1177.7}"
+embeddinggemma,Easy,10,0.9,1.0,1.0,0.95,1.0,,,,
+embeddinggemma,Hard,10,0.7,0.8,0.9,0.777,0.9,,,,
+embeddinggemma,Medium,10,0.9,1.0,1.0,0.95,1.0,,,,
+embeddinggemma,구어체,10,1.0,1.0,1.0,1.0,1.0,,,,
+embeddinggemma,긴질문,10,0.7,0.8,0.9,0.784,0.8,,,,
+embeddinggemma,오타,10,0.8,1.0,1.0,0.9,0.9,,,,
