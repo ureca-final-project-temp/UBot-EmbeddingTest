@@ -1,0 +1,610 @@
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = bge-reranker-v2-m3 (top_k=3)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[개선] E02 (Easy) baseline_rank=3 -> reranked_rank=2 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[1단계 실패(Top-K 밖, reranker 무관)] M01 (Medium) baseline_rank=10 -> reranked_rank=None | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[동일] M02 (Medium) baseline_rank=2 -> reranked_rank=2 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[1단계 실패(Top-K 밖, reranker 무관)] M05 (Medium) baseline_rank=9 -> reranked_rank=None | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[1단계 실패(Top-K 밖, reranker 무관)] M06 (Medium) baseline_rank=5 -> reranked_rank=None | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[1단계 실패(Top-K 밖, reranker 무관)] H01 (Hard) baseline_rank=9 -> reranked_rank=None | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[1단계 실패(Top-K 밖, reranker 무관)] H02 (Hard) baseline_rank=8 -> reranked_rank=None | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=2 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[악화] H04 (Hard) baseline_rank=1 -> reranked_rank=2 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[동일] C01 (구어체) baseline_rank=1 -> reranked_rank=1 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[동일] C08 (구어체) baseline_rank=1 -> reranked_rank=1 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[동일] T01 (오타) baseline_rank=1 -> reranked_rank=1 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[개선] L01 (긴질문) baseline_rank=2 -> reranked_rank=1 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[1단계 실패(Top-K 밖, reranker 무관)] L02 (긴질문) baseline_rank=4 -> reranked_rank=None | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[동일] L06 (긴질문) baseline_rank=2 -> reranked_rank=2 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[동일] L08 (긴질문) baseline_rank=1 -> reranked_rank=1 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = bge-reranker-v2-m3 (top_k=5)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[개선] E02 (Easy) baseline_rank=3 -> reranked_rank=2 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[1단계 실패(Top-K 밖, reranker 무관)] M01 (Medium) baseline_rank=10 -> reranked_rank=None | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[동일] M02 (Medium) baseline_rank=2 -> reranked_rank=2 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[1단계 실패(Top-K 밖, reranker 무관)] M05 (Medium) baseline_rank=9 -> reranked_rank=None | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[개선] M06 (Medium) baseline_rank=5 -> reranked_rank=4 | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[1단계 실패(Top-K 밖, reranker 무관)] H01 (Hard) baseline_rank=9 -> reranked_rank=None | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[1단계 실패(Top-K 밖, reranker 무관)] H02 (Hard) baseline_rank=8 -> reranked_rank=None | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=3 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[악화] H04 (Hard) baseline_rank=1 -> reranked_rank=2 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[동일] C01 (구어체) baseline_rank=1 -> reranked_rank=1 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[동일] C08 (구어체) baseline_rank=1 -> reranked_rank=1 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[동일] T01 (오타) baseline_rank=1 -> reranked_rank=1 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[개선] L01 (긴질문) baseline_rank=2 -> reranked_rank=1 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[개선] L02 (긴질문) baseline_rank=4 -> reranked_rank=2 | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[동일] L06 (긴질문) baseline_rank=2 -> reranked_rank=2 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[동일] L08 (긴질문) baseline_rank=1 -> reranked_rank=1 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = bge-reranker-v2-m3 (top_k=10)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[개선] E02 (Easy) baseline_rank=3 -> reranked_rank=2 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[개선] M01 (Medium) baseline_rank=10 -> reranked_rank=6 | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[동일] M02 (Medium) baseline_rank=2 -> reranked_rank=2 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[개선] M05 (Medium) baseline_rank=9 -> reranked_rank=2 | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[개선] M06 (Medium) baseline_rank=5 -> reranked_rank=4 | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[개선] H01 (Hard) baseline_rank=9 -> reranked_rank=5 | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[개선] H02 (Hard) baseline_rank=8 -> reranked_rank=3 | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=3 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[악화] H04 (Hard) baseline_rank=1 -> reranked_rank=2 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[동일] C01 (구어체) baseline_rank=1 -> reranked_rank=1 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[동일] C08 (구어체) baseline_rank=1 -> reranked_rank=1 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[동일] T01 (오타) baseline_rank=1 -> reranked_rank=1 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[개선] L01 (긴질문) baseline_rank=2 -> reranked_rank=1 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[개선] L02 (긴질문) baseline_rank=4 -> reranked_rank=2 | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[악화] L06 (긴질문) baseline_rank=2 -> reranked_rank=3 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[동일] L08 (긴질문) baseline_rank=1 -> reranked_rank=1 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = bge-reranker-v2-m3 (top_k=15)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[개선] E02 (Easy) baseline_rank=3 -> reranked_rank=2 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[개선] M01 (Medium) baseline_rank=10 -> reranked_rank=7 | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[악화] M02 (Medium) baseline_rank=2 -> reranked_rank=3 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[개선] M05 (Medium) baseline_rank=9 -> reranked_rank=2 | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[개선] M06 (Medium) baseline_rank=5 -> reranked_rank=4 | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[개선] H01 (Hard) baseline_rank=9 -> reranked_rank=6 | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[개선] H02 (Hard) baseline_rank=8 -> reranked_rank=4 | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=3 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[악화] H04 (Hard) baseline_rank=1 -> reranked_rank=2 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[동일] C01 (구어체) baseline_rank=1 -> reranked_rank=1 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[동일] C08 (구어체) baseline_rank=1 -> reranked_rank=1 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[동일] T01 (오타) baseline_rank=1 -> reranked_rank=1 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[개선] L01 (긴질문) baseline_rank=2 -> reranked_rank=1 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[개선] L02 (긴질문) baseline_rank=4 -> reranked_rank=2 | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[악화] L06 (긴질문) baseline_rank=2 -> reranked_rank=3 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[동일] L08 (긴질문) baseline_rank=1 -> reranked_rank=1 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = bge-reranker-v2-m3 (top_k=20)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[개선] E02 (Easy) baseline_rank=3 -> reranked_rank=2 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[개선] M01 (Medium) baseline_rank=10 -> reranked_rank=8 | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[악화] M02 (Medium) baseline_rank=2 -> reranked_rank=3 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[개선] M05 (Medium) baseline_rank=9 -> reranked_rank=2 | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[개선] M06 (Medium) baseline_rank=5 -> reranked_rank=4 | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[개선] H01 (Hard) baseline_rank=9 -> reranked_rank=6 | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[개선] H02 (Hard) baseline_rank=8 -> reranked_rank=4 | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=3 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[악화] H04 (Hard) baseline_rank=1 -> reranked_rank=2 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[동일] C01 (구어체) baseline_rank=1 -> reranked_rank=1 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[동일] C08 (구어체) baseline_rank=1 -> reranked_rank=1 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[동일] T01 (오타) baseline_rank=1 -> reranked_rank=1 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[개선] L01 (긴질문) baseline_rank=2 -> reranked_rank=1 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[개선] L02 (긴질문) baseline_rank=4 -> reranked_rank=2 | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[악화] L06 (긴질문) baseline_rank=2 -> reranked_rank=3 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[동일] L08 (긴질문) baseline_rank=1 -> reranked_rank=1 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = jina-reranker-v2 (top_k=3)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[동일] E02 (Easy) baseline_rank=3 -> reranked_rank=3 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[1단계 실패(Top-K 밖, reranker 무관)] M01 (Medium) baseline_rank=10 -> reranked_rank=None | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[동일] M02 (Medium) baseline_rank=2 -> reranked_rank=2 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[1단계 실패(Top-K 밖, reranker 무관)] M05 (Medium) baseline_rank=9 -> reranked_rank=None | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[1단계 실패(Top-K 밖, reranker 무관)] M06 (Medium) baseline_rank=5 -> reranked_rank=None | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[1단계 실패(Top-K 밖, reranker 무관)] H01 (Hard) baseline_rank=9 -> reranked_rank=None | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[1단계 실패(Top-K 밖, reranker 무관)] H02 (Hard) baseline_rank=8 -> reranked_rank=None | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=2 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[동일] H04 (Hard) baseline_rank=1 -> reranked_rank=1 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[악화] C01 (구어체) baseline_rank=1 -> reranked_rank=2 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[악화] C08 (구어체) baseline_rank=1 -> reranked_rank=2 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[악화] T01 (오타) baseline_rank=1 -> reranked_rank=3 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[개선] L01 (긴질문) baseline_rank=2 -> reranked_rank=1 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[1단계 실패(Top-K 밖, reranker 무관)] L02 (긴질문) baseline_rank=4 -> reranked_rank=None | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[동일] L06 (긴질문) baseline_rank=2 -> reranked_rank=2 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[동일] L08 (긴질문) baseline_rank=1 -> reranked_rank=1 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = jina-reranker-v2 (top_k=5)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[악화] E02 (Easy) baseline_rank=3 -> reranked_rank=4 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[1단계 실패(Top-K 밖, reranker 무관)] M01 (Medium) baseline_rank=10 -> reranked_rank=None | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[동일] M02 (Medium) baseline_rank=2 -> reranked_rank=2 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[1단계 실패(Top-K 밖, reranker 무관)] M05 (Medium) baseline_rank=9 -> reranked_rank=None | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[개선] M06 (Medium) baseline_rank=5 -> reranked_rank=2 | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[1단계 실패(Top-K 밖, reranker 무관)] H01 (Hard) baseline_rank=9 -> reranked_rank=None | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[1단계 실패(Top-K 밖, reranker 무관)] H02 (Hard) baseline_rank=8 -> reranked_rank=None | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=3 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[동일] H04 (Hard) baseline_rank=1 -> reranked_rank=1 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[악화] C01 (구어체) baseline_rank=1 -> reranked_rank=2 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[악화] C08 (구어체) baseline_rank=1 -> reranked_rank=2 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[악화] T01 (오타) baseline_rank=1 -> reranked_rank=5 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[동일] L01 (긴질문) baseline_rank=2 -> reranked_rank=2 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[개선] L02 (긴질문) baseline_rank=4 -> reranked_rank=3 | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[동일] L06 (긴질문) baseline_rank=2 -> reranked_rank=2 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[동일] L08 (긴질문) baseline_rank=1 -> reranked_rank=1 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = jina-reranker-v2 (top_k=10)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[동일] E02 (Easy) baseline_rank=3 -> reranked_rank=3 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[동일] M01 (Medium) baseline_rank=10 -> reranked_rank=10 | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[동일] M02 (Medium) baseline_rank=2 -> reranked_rank=2 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[개선] M05 (Medium) baseline_rank=9 -> reranked_rank=1 | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[개선] M06 (Medium) baseline_rank=5 -> reranked_rank=2 | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[악화] H01 (Hard) baseline_rank=9 -> reranked_rank=10 | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[동일] H02 (Hard) baseline_rank=8 -> reranked_rank=8 | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=4 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[동일] H04 (Hard) baseline_rank=1 -> reranked_rank=1 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[악화] C01 (구어체) baseline_rank=1 -> reranked_rank=2 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[악화] C08 (구어체) baseline_rank=1 -> reranked_rank=3 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[악화] T01 (오타) baseline_rank=1 -> reranked_rank=7 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[동일] L01 (긴질문) baseline_rank=2 -> reranked_rank=2 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[개선] L02 (긴질문) baseline_rank=4 -> reranked_rank=3 | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[악화] L06 (긴질문) baseline_rank=2 -> reranked_rank=3 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[악화] L08 (긴질문) baseline_rank=1 -> reranked_rank=2 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = jina-reranker-v2 (top_k=15)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[악화] E02 (Easy) baseline_rank=3 -> reranked_rank=4 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[악화] M01 (Medium) baseline_rank=10 -> reranked_rank=12 | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[동일] M02 (Medium) baseline_rank=2 -> reranked_rank=2 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[개선] M05 (Medium) baseline_rank=9 -> reranked_rank=1 | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[개선] M06 (Medium) baseline_rank=5 -> reranked_rank=2 | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[악화] H01 (Hard) baseline_rank=9 -> reranked_rank=12 | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[악화] H02 (Hard) baseline_rank=8 -> reranked_rank=11 | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=4 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[동일] H04 (Hard) baseline_rank=1 -> reranked_rank=1 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[악화] C01 (구어체) baseline_rank=1 -> reranked_rank=2 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[악화] C08 (구어체) baseline_rank=1 -> reranked_rank=3 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[악화] T01 (오타) baseline_rank=1 -> reranked_rank=8 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[동일] L01 (긴질문) baseline_rank=2 -> reranked_rank=2 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[동일] L02 (긴질문) baseline_rank=4 -> reranked_rank=4 | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[악화] L06 (긴질문) baseline_rank=2 -> reranked_rank=3 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[악화] L08 (긴질문) baseline_rank=1 -> reranked_rank=3 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
+
+======================================================================
+회차 1 | 2026-09-11 13:56:34 | reranker = jina-reranker-v2 (top_k=20)
+======================================================================
+[동일] E01 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외 데이터 로밍 요금은 어떻게 되나요?
+[악화] E02 (Easy) baseline_rank=3 -> reranked_rank=4 | 휴대폰을 분실하면 어떻게 해야 하나요?
+[동일] E03 (Easy) baseline_rank=1 -> reranked_rank=1 | 데이터 속도가 갑자기 느려졌어요.
+[개선] E04 (Easy) baseline_rank=2 -> reranked_rank=1 | 데이터 사용량을 확인하고 싶어요.
+[동일] E05 (Easy) baseline_rank=1 -> reranked_rank=1 | 유심을 재발급받으려면 어떻게 하나요?
+[동일] E06 (Easy) baseline_rank=1 -> reranked_rank=1 | 번호를 변경하려면 어떻게 하나요?
+[동일] E07 (Easy) baseline_rank=1 -> reranked_rank=1 | 이번 달 휴대폰 요금이 너무 많이 나왔어요.
+[동일] E08 (Easy) baseline_rank=1 -> reranked_rank=1 | 약정 중 해지하면 위약금이 발생하나요?
+[동일] E10 (Easy) baseline_rank=1 -> reranked_rank=1 | 해외에서 데이터 로밍을 차단하고 싶어요.
+[악화] M01 (Medium) baseline_rank=10 -> reranked_rank=16 | 일본에서 인터넷 좀 쓰면 추가 요금 많이 붙나요?
+[동일] M02 (Medium) baseline_rank=2 -> reranked_rank=2 | 폰을 어디에 뒀는지 모르겠는데 일단 아무도 못 쓰게 하고 싶어요.
+[동일] M03 (Medium) baseline_rank=1 -> reranked_rank=1 | 유튜브가 갑자기 엄청 느려졌는데 데이터를 다 쓴 걸까요?
+[동일] M04 (Medium) baseline_rank=1 -> reranked_rank=1 | 이번 달 인터넷 얼마나 썼는지 어디서 봐요?
+[개선] M05 (Medium) baseline_rank=9 -> reranked_rank=1 | 심카드를 잃어버려서 새 걸 받아야 할 것 같아요.
+[개선] M06 (Medium) baseline_rank=5 -> reranked_rank=2 | 새 폰을 샀는데 지금 쓰는 010 번호 계속 쓸 수 있나요?
+[동일] M07 (Medium) baseline_rank=1 -> reranked_rank=1 | 평소에는 5만원인데 이번 달에는 10만원이 나왔어요.
+[동일] M08 (Medium) baseline_rank=1 -> reranked_rank=1 | 계약 기간이 아직 남았는데 통신사를 옮기면 돈 내야 하나요?
+[동일] M10 (Medium) baseline_rank=2 -> reranked_rank=2 | 해외에서는 와이파이만 쓰고 휴대폰 인터넷은 아예 꺼두고 싶어요.
+[악화] H01 (Hard) baseline_rank=9 -> reranked_rank=14 | 일본 여행 가서 카톡이랑 유튜브 좀 쓰려고 하는데 그냥 쓰면 요금 많이 나오나요?
+[악화] H02 (Hard) baseline_rank=8 -> reranked_rank=11 | 지하철에 폰을 두고 내린 것 같은데 누가 전화나 데이터를 못 쓰게 하고 싶어요.
+[악화] H03 (Hard) baseline_rank=1 -> reranked_rank=5 | 데이터 연결은 되어 있는데 영상이 거의 안 돌아가요. 이번 달 데이터를 다 써서 그런 건가요?
+[동일] H04 (Hard) baseline_rank=1 -> reranked_rank=1 | 유심을 잃어버려서 지금 번호 그대로 새 유심을 받아야 하는데 어떻게 하나요?
+[동일] H05 (Hard) baseline_rank=1 -> reranked_rank=1 | 통신사는 그대로 쓰고 휴대폰만 새 걸로 바꿨는데 번호를 계속 쓰려면 어떻게 해야 하나요?
+[동일] H06 (Hard) baseline_rank=1 -> reranked_rank=1 | 해외여행 다녀온 뒤 이번 달 통신비가 갑자기 두 배로 나왔어요. 왜 그런가요?
+[개선] H07 (Hard) baseline_rank=2 -> reranked_rank=1 | 중국에 가는데 호텔 와이파이만 쓰고 실수로 데이터가 켜져서 돈 나가는 것도 막고 싶어요.
+[동일] H08 (Hard) baseline_rank=1 -> reranked_rank=1 | 폰은 그대로 쓸 건데 스팸 전화가 너무 와서 제 번호 자체를 바꾸고 싶습니다.
+[동일] H10 (Hard) baseline_rank=1 -> reranked_rank=1 | 약정이 6개월 남았는데 번호는 유지하면서 다른 통신사로 옮기려고 합니다. 추가로 내야 할 돈이 있나요?
+[악화] C01 (구어체) baseline_rank=1 -> reranked_rank=2 | eSIM이 정확히 뭔지 잘 모르겠는데 유심이랑 다른 거임?
+[동일] C02 (구어체) baseline_rank=1 -> reranked_rank=1 | 자꾸 스팸 문자 오는데 이거 막을 방법 없나?
+[동일] C03 (구어체) baseline_rank=1 -> reranked_rank=1 | 데이터 무제한으로 맘껏 쓸 수 있는 요금제 있음?
+[동일] C04 (구어체) baseline_rank=1 -> reranked_rank=1 | 고객센터 몇 시까지 하는지 아는 사람?
+[동일] C05 (구어체) baseline_rank=1 -> reranked_rank=1 | 폰 중고로 바꿔도 괜찮은 거지?
+[동일] C06 (구어체) baseline_rank=1 -> reranked_rank=1 | 핫스팟 켜서 쓸 수 있는 거 맞죠?
+[동일] C07 (구어체) baseline_rank=1 -> reranked_rank=1 | 청구서 메일로 받아보고 싶은데 가능해요?
+[악화] C08 (구어체) baseline_rank=1 -> reranked_rank=4 | 정지된 거 다시 풀려면 어떻게 해야 되나요?
+[동일] C09 (구어체) baseline_rank=1 -> reranked_rank=1 | 가족끼리 묶어서 할인받는 거 신청하려면 어떻게 함?
+[동일] C10 (구어체) baseline_rank=1 -> reranked_rank=1 | 번호 바꾸면 예전 번호로 온 문자는 어떻게 되는 거예요?
+[악화] T01 (오타) baseline_rank=1 -> reranked_rank=9 | 번호이동 할려면 머 해야되요
+[동일] T02 (오타) baseline_rank=1 -> reranked_rank=1 | 데이타 사용량 확인하는법 알려주세요
+[동일] T03 (오타) baseline_rank=1 -> reranked_rank=1 | 요금이 왜케 마니나왔조
+[동일] T04 (오타) baseline_rank=1 -> reranked_rank=1 | 소액결재 차단할수있나요
+[동일] T05 (오타) baseline_rank=1 -> reranked_rank=1 | 특정번호 차단하는법 알고싶어요
+[동일] T06 (오타) baseline_rank=1 -> reranked_rank=1 | 약정중해지하면 위약금 잇나요
+[동일] T07 (오타) baseline_rank=1 -> reranked_rank=1 | 가까운매장 어떻게찾나요
+[동일] T08 (오타) baseline_rank=1 -> reranked_rank=1 | 해외데이타로밍 요금이 얼마에요
+[동일] T09 (오타) baseline_rank=1 -> reranked_rank=1 | 유심이 인식이 안되요 휴대폰에서
+[동일] T10 (오타) baseline_rank=1 -> reranked_rank=1 | 요금제바꾸고싶은데 어떡게하나요
+[동일] L01 (긴질문) baseline_rank=2 -> reranked_rank=2 | 다음 달에 유럽 여행을 가는데 거기서 인터넷을 좀 써야 할 것 같아서요. 로밍이라는 게 있다고는 들었는데 정확히 어떻게 요금이 매겨지는 건지 감이 안 와서 여쭤봐요. 데이터 요금이 어떻게 되나요?
+[악화] L02 (긴질문) baseline_rank=4 -> reranked_rank=5 | 어제 출근하다가 휴대폰을 잃어버렸는데 안에 유심도 들어 있고 번호는 그대로 쓰고 싶어요. 새 유심을 받을 수 있나요?
+[악화] L03 (긴질문) baseline_rank=1 -> reranked_rank=2 | 제가 지금 2년 약정으로 쓰고 있는데 아직 6개월 정도 남았거든요. 근데 갑자기 사정이 생겨서 다른 통신사로 옮겨야 할 것 같은데, 이 경우에 위약금도 내야 하고 아직 남은 할부금도 있는 걸로 아는데 이거 어떻게 처리되는 건지 자세히 알고 싶어요.
+[동일] L04 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 예전에 데이터를 다 써서 요금이 엄청 많이 나온 적이 있었거든요. 그래서 이번에는 데이터가 다 되기 전에 미리 알 수 있으면 좋겠는데, 그런 식으로 알림 받을 수 있는 방법이 있나요?
+[동일] L05 (긴질문) baseline_rank=1 -> reranked_rank=1 | 최근에 최신 스마트폰으로 바꿨는데 분명히 5G 요금제를 쓰고 있는데도 화면에 계속 LTE라고만 떠서요. 설정을 잘못 만진 건지 아니면 원래 이 지역에서 5G가 안 잡히는 건지 헷갈리는데, 왜 이런 건가요?
+[악화] L06 (긴질문) baseline_rank=2 -> reranked_rank=3 | 부모님 명의로 되어 있는 휴대폰을 제 명의로 바꾸고 싶은데, 절차가 복잡한지 궁금하고 혹시 두 사람이 같이 매장에 가야 하는 건지 아니면 온라인으로도 처리가 가능한 건지 알고 싶어요.
+[동일] L07 (긴질문) baseline_rank=1 -> reranked_rank=1 | 저희 가족이 다 같은 통신사를 쓰고 있는데, 저는 데이터를 항상 남기고 동생은 항상 데이터가 부족해서 추가로 요금을 내고 있거든요. 이런 경우에 가족끼리 데이터를 나눠 쓸 수 있는 방법이 있는지 궁금해요.
+[악화] L08 (긴질문) baseline_rank=1 -> reranked_rank=3 | 이번에 해외로 몇 달 정도 나가 있을 예정이라 그동안 휴대폰을 아예 안 쓸 것 같은데, 그렇다고 완전히 해지하기는 아까워서요. 혹시 일시적으로 사용을 멈춰두는 방법이 있고, 그 기간에도 요금이 계속 나가는 건지 궁금합니다.
+[동일] L09 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제 폰이 eSIM이랑 일반 유심을 둘 다 지원하는 기종이라고 들었는데, 회사폰이랑 개인폰 번호를 하나의 휴대폰으로 같이 쓰고 싶어서요. 이렇게 두 개를 동시에 활성화해서 쓰는 게 가능한 건가요?
+[동일] L10 (긴질문) baseline_rank=1 -> reranked_rank=1 | 제가 매달 요금제에 포함된 데이터를 거의 다 못 쓰고 남기는 편인데, 이렇게 남는 데이터가 있으면 그냥 사라지는 건지 아니면 혹시 다음 달로 넘겨서 쓸 수 있는 그런 제도가 있는지 궁금해서 여쭤봐요.
